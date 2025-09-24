@@ -1,41 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio — Inspirado Casiopea</title>
+  <link rel="stylesheet" href="tarea-1.css" />
 </head>
-<>
-    <header> 
-        <h1> Hola Rocio </h1>
-        <p> El dia de hoy aprendimosn sobre codigo html </p>
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <div class="logo">
+        <a href="#">Rocío Meneses</a>
+      </div>
+      <nav class="nav"></nav>
+    </div>
+  </header>
 
-        <ul> 
-            <li> Punto 1
-            </li>
-        </ul>
-    </header>
+  <section class="hero" id="inicio">
+    <div class="hero-overlay">
+      <div class="hero-content container">
+        <h1>Imágen Escrita</h1>
+        <p>Diseño, imagen y movimiento</p>
+      </div>
+    </div>
+  </section>
 
-<div id="left">
-<img src= "assets/Imagen 1.JPG"/>
-<a href="https://wiki.ead.pucv.cl/Casiopea"> 
-<button> wiki Casiopea </button>
-</a>
+  <section class="section sobre" id="sobre">
+    <div class="container">
+      <h2></h2>
+      <p>
+        En Imágen Escrita, se exploran las posibilidades visuales que surgen al combinar diseño, programación y arte generativo. A través de p5.js se crean composiciones gráficas interactivas que muestran cómo la programación puede convertirse en una herramienta creativa para el diseño.
+        En este proyecto de Diseño se permite visualizar y crear desde formas simples hasta estructuras más complejas, siempre con un enfoque experimental. El uso de código se entiende como un medio para dar vida a ideas visuales, donde la estética y la interacción se entrelazan.
+        Además, se incorporan herramientas de inteligencia artificial que amplían el alcance de lo que se puede crear, generando nuevas oportunidades para experimentar con imágenes, patrones y efectos dentro del proceso de diseño.
+      </p>
+    </div>
+  </section>
 
+  <section class="section proyectos" id="proyectos">
+    <div class="container">
+      <h2>Proyectos destacados</h2>
+      <div class="grid">
+        <a class="thumb" href="proyecto-1.html" target="_blank" rel="noopener noreferrer">
+          <img src="imagenesss/encargo1.png" alt="Proyecto 1" />
+          <div class="caption">Proyecto 1</div>
+        </a>
+        <a class="thumb" href="proyecto-2.html" target="_blank" rel="noopener noreferrer">
+          <img src="imagenesss/encargo2.png" alt="Proyecto 2" />
+          <div class="caption">Proyecto 2</div>
+        </a>
+        <a class="thumb" href="proyecto-3.html" target="_blank" rel="noopener noreferrer">
+          <img src="imagenesss/encargo3.png" alt="Proyecto 3" />
+          <div class="caption">Proyecto 3</div>
+        </a>
+        <a class="thumb" href="proyecto-4.html" target="_blank" rel="noopener noreferrer">
+          <img src="imagenesss/encargo4.png" alt="Proyecto 4" />
+          <div class="caption">Proyecto 4</div>
+        </a>
+      </div>
+    </div>
+  </section>
+  
 
+ 
 
-<nav> 
-    <img href="https://wiki.ead.pucv.cl/Casiopea">
-    <img src="assets/Imagen 1.JPG"> 
-</img>
-</a>
-</div>
-
-
-
-
-</nav>
-
-
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
