@@ -175,15 +175,29 @@ html, body {
     margin-bottom: 20px;
 }
 
-
-
-
 /* Imagen del proyecto */
 .project-image {
-    width: 50%;        /* reduce tamaño al 30% del contenedor */
-    max-width: 300px;  /* tamaño máximo */
+    width: 70%;        /* reduce tamaño al 30% del contenedor */
+    max-width: 500px;  /* tamaño máximo */
     display: block;
     margin: 0 auto 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
+/* Contenedor específico del proyecto final */
+#proyecto-final .thumb {
+    width: 50%;        /* aumenta el ancho del contenedor */
+    max-width: 500px;  /* tamaño máximo opcional */
+    margin: 0 auto;    /* centra el contenedor dentro del grid */
+}
+
+/* Imagen dentro del proyecto final */
+.proyecto-final {
+    width: 100%;       /* ocupa todo el ancho del contenedor */
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
